@@ -1,4 +1,4 @@
-const CACHE_NAME = 'balsamur-cache-v1';
+const CACHE_NAME = 'balsamur-cache-v2';   // nueva versión de caché
 const FILES_TO_CACHE = [
   './',
   './index.html',
@@ -7,8 +7,8 @@ const FILES_TO_CACHE = [
   './manifest.webmanifest',
   './sw.js',
   './icon-512.png',
-  './icon-192.png'
-  './marca-agua.png'
+  './icon-192.png',
+  './marca-agua.png'       // ojo: aquí faltaba una coma antes en tu código
 ];
 
 // Instalar: cachear los archivos básicos
