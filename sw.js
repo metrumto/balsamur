@@ -2,11 +2,13 @@ const CACHE_NAME = 'balsamur-cache-v1';
 const FILES_TO_CACHE = [
   './',
   './index.html',
+  './app.js',
+  './sw-register.js',
   './manifest.webmanifest',
   './sw.js',
   './icon-512.png',
   './icon-192.png'
-  './icon-512.png'
+  './marca-agua.png'
 ];
 
 // Instalar: cachear los archivos básicos
