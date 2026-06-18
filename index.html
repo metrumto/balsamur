@@ -180,6 +180,18 @@
         padding: 20px 18px;
       }
     }
+	.watermark {
+	  position: fixed;
+	  bottom: 4px;
+	  left: 50%;
+	  transform: translateX(-50%);
+	  opacity: 0.35;          /* transparencia tipo marca de agua */
+	  pointer-events: none;   /* que no bloquee toques/clicks */
+	}
+	.watermark img {
+	  max-width: 160px;       /* ajusta tamaño a tu gusto */
+	  height: auto;
+	}
   </style>
 </head>
 <body>
@@ -253,7 +265,11 @@
       </div>
     </div>
   </div>
-
+  
+  <div class="watermark">
+    <img src="marca-agua.png" alt="BalsaMur">
+  </div>
+  
     <!-- Lógica de la app, en archivo externo (no inline) -->
   <script src="app.js"></script>
 
