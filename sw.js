@@ -4,8 +4,8 @@ const FILES_TO_CACHE = [
   './index.html',
   './manifest.webmanifest',
   './sw.js',
-  './icon-192.png',
-  './icon-512.png'
+  './icon-512.png',
+  './icon-192.png'
 ];
 
 // Instalar: cachear los archivos básicos
